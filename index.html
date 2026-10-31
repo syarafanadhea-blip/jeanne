@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jeanne | Pashmina Kaos Premium + Gratis Scrunchie Custom</title>
+  <meta name="description" content="Jeanne menjual pashmina kaos premium yang lembut, tidak menerawang, dan mudah dibentuk. Gratis scrunchie custom motif bunga watercolor di setiap pembelian.">
+  <meta name="theme-color" content="#d9a5a5">
+  <meta property="og:title" content="Jeanne | Pashmina Kaos Premium">
+  <meta property="og:description" content="Beli pashmina, dapat gratis scrunchie yang bisa kamu desain sendiri.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23d9a5a5'/%3E%3Ctext x='32' y='45' font-size='38' font-family='Georgia,serif' font-style='italic' text-anchor='middle' fill='white'%3EJ%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="container nav">
+    <a href="#beranda" class="brand" aria-label="Jeanne beranda">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="31" fill="#d9a5a5"/>
+        <circle cx="32" cy="32" r="27" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="1.2"/>
+        <text x="32" y="45" font-size="36" font-family="Cormorant Garamond,Georgia,serif" font-style="italic" font-weight="600" text-anchor="middle" fill="#fff">J</text>
+      </svg>
+      <span>Jeanne</span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Menu utama">
+      <a href="#produk">Pashmina</a>
+      <a href="#studio">Studio Scrunchie</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#ulasan">Ulasan</a>
+      <a href="#kebijakan">Kebijakan</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="cart-btn" id="openCart" aria-label="Buka keranjang">
+        <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="badge" id="cartCount">0</span>
+      </button>
+      <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="beranda">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <span class="eyebrow">Pashmina Kaos Premium</span>
+      <h1>Jatuh sempurna, <em>lembut</em> seharian.</h1>
+      <p>Bahan jersey premium yang adem, tidak menerawang, dan gampang dibentuk. Setiap pembelian dapat <b>gratis scrunchie</b> yang desainnya kamu buat sendiri dengan motif bunga watercolor.</p>
+      <div class="hero-cta">
+        <a href="#produk" class="btn btn-primary">Belanja Pashmina</a>
+        <a href="#studio" class="btn btn-ghost">Desain Scrunchie Gratis</a>
+      </div>
+      <ul class="hero-stats">
+        <li><strong>175×75</strong><span>cm, ukuran lega</span></li>
+        <li><strong>4.9/5</strong><span>rating pembeli</span></li>
+        <li><strong>7 warna</strong><span>netral & pastel</span></li>
+      </ul>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="arch" id="heroModel"></div>
+      <div class="hf hf1" id="hf1"></div>
+      <div class="hf hf2" id="hf2"></div>
+      <div class="hf hf3" id="hf3"></div>
+      <div class="hero-scr" id="heroScr"></div>
+      <div class="hero-badge"><b>FREE</b><span>scrunchie custom</span></div>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>✿ Gratis scrunchie custom</span><span>✿ Jersey premium</span><span>✿ Tidak menerawang</span><span>✿ Jahit tepi rapi</span><span>✿ Packing aman</span><span>✿ Kirim seluruh Indonesia</span>
+      <span>✿ Gratis scrunchie custom</span><span>✿ Jersey premium</span><span>✿ Tidak menerawang</span><span>✿ Jahit tepi rapi</span><span>✿ Packing aman</span><span>✿ Kirim seluruh Indonesia</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KEUNGGULAN ============ -->
+<section class="section features">
+  <div class="container grid-4">
+    <article class="feature reveal"><div class="ico">☁️</div><h3>Rayon Viscose Jersey</h3><p>Lembut, adem, dan jatuh cantik, nyaman dipakai seharian.</p></article>
+    <article class="feature reveal"><div class="ico">🤍</div><h3>Tidak Menerawang</h3><p>Bahan cukup tebal, aman untuk hijab harian.</p></article>
+    <article class="feature reveal"><div class="ico">🧵</div><h3>Jahit Tepi Rapi</h3><p>Tepi diobras halus, tidak gampang melintir.</p></article>
+    <article class="feature reveal"><div class="ico">🌸</div><h3>Gratis Scrunchie</h3><p>Motif bunga watercolor, desain sesukamu.</p></article>
+  </div>
+</section>
+
+<!-- ============ PRODUK ============ -->
+<section class="section" id="produk">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Koleksi Pashmina</span>
+      <h2>Pilih warna yang <em>sesuai harimu</em></h2>
+      <p>7 warna pashmina kaos premium, ukuran 175×75 cm, harga sama. Setiap pcs sudah termasuk 1 scrunchie custom gratis.</p>
+    </div>
+    <div class="products" id="products"></div>
+  </div>
+</section>
+
+<!-- ============ STUDIO SCRUNCHIE ============ -->
+<section class="section studio" id="studio">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Studio Scrunchie · GRATIS</span>
+      <h2>Desain scrunchie <em>milikmu</em> sendiri</h2>
+      <p>Pilih motif bunga watercolor, warna, dan ukuran. Pratinjaunya langsung berubah, lengkap dengan pashmina pilihanmu.</p>
+    </div>
+    <div class="studio-grid">
+      <div class="preview reveal">
+        <div class="stage">
+          <div class="stage-main">
+            <div class="pframe" id="stageModel"></div>
+            <div class="stage-scr" id="stageScr"></div>
+          </div>
+          <div class="stage-close" id="stageClose"></div>
+          <p class="stage-cap"><b id="studioName">Pashmina</b><span id="studioSummary"></span></p>
+        </div>
+        <p class="muted small center">Pratinjau berupa ilustrasi. Hasil cetak bisa sedikit berbeda dan akan dikonfirmasi admin sebelum produksi.</p>
+      </div>
+
+      <div class="controls reveal">
+        <div class="ctrl">
+          <h4><b>1</b> Pilih pashmina</h4>
+          <div class="swatches" id="pickPashmina"></div>
+        </div>
+        <div class="ctrl">
+          <h4><b>2</b> Motif bunga watercolor</h4>
+          <div class="motifs" id="pickMotif"></div>
+        </div>
+        <div class="ctrl two">
+          <div><h4><b>3</b> Warna bunga</h4><div class="swatches" id="pickTint"></div></div>
+          <div><h4><b>4</b> Warna dasar kain</h4><div class="swatches" id="pickBase"></div></div>
+        </div>
+        <div class="ctrl">
+          <h4><b>5</b> Ukuran motif <span class="muted small" id="scaleVal">100%</span></h4>
+          <input type="range" id="scale" min="60" max="170" value="100" aria-label="Ukuran motif">
+        </div>
+        <div class="ctrl">
+          <h4><b>6</b> Atau pakai gambarmu sendiri <span class="muted small">(opsional)</span></h4>
+          <div class="upload">
+            <label class="btn btn-ghost sm" for="upload">Unggah gambar</label>
+            <input type="file" id="upload" accept="image/*" hidden>
+            <button class="link" id="clearUp" type="button" hidden>Hapus gambar</button>
+            <span class="muted small" id="upName"></span>
+          </div>
+        </div>
+        <div class="ctrl">
+          <h4><b>7</b> Catatan untuk admin <span class="muted small">(opsional)</span></h4>
+          <input type="text" id="note" maxlength="80" placeholder="mis. tambah inisial “A”, warna lebih pastel">
+        </div>
+        <div class="ctrl actions">
+          <button class="btn btn-primary" id="studioAdd">Tambah ke keranjang</button>
+          <button class="btn btn-ghost" id="studioShuffle" type="button">🎲 Acak desain</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CARA PESAN ============ -->
+<section class="section steps-sec">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">Mudah Banget</span><h2>Cara pesan dalam <em>4 langkah</em></h2></div>
+    <ol class="steps">
+      <li class="reveal"><b>1</b><h4>Pilih pashmina</h4><p>Pilih warna favoritmu dan masukkan ke keranjang.</p></li>
+      <li class="reveal"><b>2</b><h4>Desain scrunchie</h4><p>Atur motif di Studio. Gratis untuk tiap pashmina.</p></li>
+      <li class="reveal"><b>3</b><h4>Kirim via WhatsApp</h4><p>Rincian pesanan & desain terisi otomatis.</p></li>
+      <li class="reveal"><b>4</b><h4>Bayar & terima</h4><p>Transfer/QRIS, paket dikirim 2–3 hari kerja.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ TENTANG KAMI ============ -->
+<section class="section about" id="tentang">
+  <div class="container about-grid">
+    <div class="about-art reveal" aria-hidden="true"><div class="arch" id="aboutArt"></div></div>
+    <div class="reveal">
+      <span class="eyebrow">Tentang Kami</span>
+      <h2>Berawal dari satu <em>pashmina</em> untuk teman, kini jadi cerita banyak perempuan</h2>
+      <p>Jeanne lahir dari keinginan sederhana: hijab yang nyaman, rapi, dan tampil cantik tanpa ribet. Kami memilih jersey premium yang jatuh pas di wajah dan tidak mudah melar.</p>
+      <p>Scrunchie gratis adalah cara kami berterima kasih. Setiap pembeli boleh mendesainnya sendiri dengan sentuhan bunga watercolor yang manis.</p>
+      <ul class="checklist">
+        <li>Bahan dipilih dan dicek satu per satu</li>
+        <li>Jahitan tepi rapi dan tahan cuci</li>
+        <li>Desain scrunchie sesuai keinginanmu</li>
+      </ul>
+      <div class="values">
+        <div><strong>Visi</strong><p>Menjadi teman bergaya yang nyaman bagi setiap muslimah.</p></div>
+        <div><strong>Misi</strong><p>Produk berkualitas, harga jujur, pelayanan ramah.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ULASAN ============ -->
+<section class="section reviews" id="ulasan">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow light">Ulasan Pembeli</span><h2>Kata mereka tentang <em>Jeanne</em></h2><p class="small">Ulasan asli dari pembeli bisa kamu baca langsung di toko resmi kami.</p></div>
+    <div class="review-links">
+      <a class="review-link" href="https://shopee.co.id/search?keyword=Jeanne%20Official%20Shop" target="_blank" rel="noopener"><b>Shopee</b><span>Jeanne Official Shop</span><small>Lihat ulasan ›</small></a>
+      <a class="review-link" href="https://www.tokopedia.com/search?q=Jeanne%20Hijab%20Official" target="_blank" rel="noopener"><b>Tokopedia / TikTok Shop</b><span>Jeanne Hijab Official</span><small>Lihat ulasan ›</small></a>
+      <a class="review-link" href="https://instagram.com/jeanne.hijab" target="_blank" rel="noopener"><b>Instagram</b><span>@jeanne.hijab</span><small>Lihat testimoni ›</small></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KEBIJAKAN ============ -->
+<section class="section" id="kebijakan">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">Kebijakan Toko</span><h2>Aturan main yang <em>jelas & transparan</em></h2></div>
+    <div class="policy reveal">
+      <div class="tabs" role="tablist" aria-label="Kebijakan">
+        <button class="tab active" role="tab" data-tab="kirim" aria-selected="true">🚚 Pengiriman</button>
+        <button class="tab" role="tab" data-tab="retur" aria-selected="false">↩️ Retur & Refund</button>
+        <button class="tab" role="tab" data-tab="privasi" aria-selected="false">🔒 Privasi</button>
+        <button class="tab" role="tab" data-tab="bayar" aria-selected="false">💳 Cara Pembayaran</button>
+      </div>
+      <div class="tab-panels">
+        <div class="panel active" id="tab-kirim" role="tabpanel">
+          <h3>Kebijakan Pengiriman</h3>
+          <ul>
+            <li>Pesanan diproses <b>1–2 hari kerja</b> setelah pembayaran terkonfirmasi. Pesanan dengan scrunchie custom bisa +1–2 hari untuk produksi.</li>
+            <li>Pengiriman Senin–Sabtu. Pesanan masuk setelah pukul 15.00 WIB diproses hari kerja berikutnya.</li>
+            <li>Nomor resi dikirim lewat WhatsApp begitu paket diserahkan ke kurir.</li>
+            <li>Estimasi tiba: Jawa 2–4 hari, luar Jawa 4–8 hari (tergantung kurir).</li>
+            <li>Ongkir dihitung sesuai berat & tujuan, dikonfirmasi sebelum pembayaran.</li>
+          </ul>
+        </div>
+        <div class="panel" id="tab-retur" role="tabpanel">
+          <h3>Retur & Refund</h3>
+          <ul>
+            <li>Ajukan retur maksimal <b>2×24 jam</b> setelah paket diterima, dengan <b>video unboxing</b> tanpa putus dan foto produk.</li>
+            <li>Retur diterima jika produk cacat produksi, rusak, atau tidak sesuai pesanan (warna/jenis).</li>
+            <li>Produk yang sudah dipakai, dicuci, atau dilepas label tidak dapat diretur karena alasan kebersihan.</li>
+            <li>Scrunchie custom yang sesuai desain yang disetujui tidak dapat ditukar.</li>
+            <li>Refund dikirim ke rekening/e-wallet pembeli dalam <b>3–5 hari kerja</b> setelah retur disetujui. Alternatif: kirim ulang barang pengganti.</li>
+          </ul>
+        </div>
+        <div class="panel" id="tab-privasi" role="tabpanel">
+          <h3>Kebijakan Privasi</h3>
+          <ul>
+            <li>Kami hanya meminta data yang perlu: nama, nomor WhatsApp, dan alamat pengiriman.</li>
+            <li>Data dipakai untuk memproses pesanan dan pengiriman, tidak dijual ke pihak lain.</li>
+            <li>Gambar yang kamu unggah di Studio hanya diproses di perangkatmu dan tidak tersimpan di server website ini. Kamu akan diminta mengirim file aslinya via WhatsApp.</li>
+            <li>Isi keranjang disimpan di peramban kamu saja (localStorage).</li>
+            <li>Ingin data dihapus? Hubungi kami lewat kontak resmi.</li>
+          </ul>
+        </div>
+        <div class="panel" id="tab-bayar" role="tabpanel">
+          <h3>Cara Pembayaran</h3>
+          <ol>
+            <li>Pilih pashmina, atur scrunchie, lalu klik <b>Pesan via WhatsApp</b>.</li>
+            <li>Admin mengonfirmasi stok, desain, total, dan ongkir.</li>
+            <li>Bayar via transfer bank, QRIS, atau e-wallet dalam <b>24 jam</b>.</li>
+            <li>Kirim bukti transfer ke admin.</li>
+            <li>Pesanan diproses dan resi dikirim.</li>
+          </ol>
+          <p class="note">Pastikan nama penerima rekening adalah <b>Jeanne</b>. Kami tidak pernah meminta kode OTP/PIN.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PEMBAYARAN & KURIR ============ -->
+<section class="section pay">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">Pembayaran & Kurir</span><h2>Bayar aman, <em>kirim cepat</em></h2></div>
+    <div class="pay-grid">
+      <div class="pay-card reveal">
+        <h3>🛡️ Metode Pembayaran</h3>
+        <div class="tags"><span>BCA</span><span>BRI</span><span>Mandiri</span><span>QRIS</span><span>GoPay</span><span>OVO</span><span>DANA</span><span>ShopeePay</span></div>
+      </div>
+      <div class="pay-card reveal">
+        <h3>🚚 Kurir Tersedia</h3>
+        <div class="tags"><span>JNE</span><span>J&T</span><span>SiCepat</span><span>Pos Indonesia</span><span>Gojek/Grab (lokal)</span></div>
+        <p class="muted small">Batasan paket gratis: checkout otomatis belum tersedia, pemesanan dilakukan lewat WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEGALITAS ============ -->
+<section class="section legal" id="legalitas">
+  <div class="container legal-box reveal">
+    <div>
+      <span class="eyebrow">Legalitas Usaha</span>
+      <h2>Identitas usaha yang <em>jelas & dapat dipercaya</em></h2>
+      <p>Jeanne punya alamat usaha, kontak resmi, dan toko di marketplace yang bisa kamu cek kapan saja.</p>
+    </div>
+    <dl class="legal-list">
+      <div><dt>Nama Usaha</dt><dd>Jeanne Hijab</dd></div>
+      <div><dt>Alamat</dt><dd>Jl. Magnolia No. 17, Kawasan Creative Hub, Kec. Bunga Mekar, Kota Bermekaran, Mewangi Indah 40123, Indonesia</dd></div>
+      <div><dt>Domain</dt><dd>Menggunakan HTTPS (GitHub Pages)</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq">
+  <div class="container narrow">
+    <div class="section-head reveal"><span class="eyebrow">FAQ</span><h2>Sering <em>ditanyakan</em></h2></div>
+    <div class="accordion reveal" id="faq">
+      <details><summary>Apakah scrunchie benar-benar gratis?</summary><p>Ya. Setiap 1 pashmina yang dibeli mendapat 1 scrunchie custom tanpa biaya tambahan.</p></details>
+      <details><summary>Bisa pakai gambar atau foto sendiri?</summary><p>Bisa. Unggah gambar di Studio untuk pratinjau, lalu kirim file aslinya ke admin lewat WhatsApp agar dicetak dengan resolusi terbaik.</p></details>
+      <details><summary>Bahan pashmina-nya seperti apa?</summary><p>Rayon viscose jersey (kaos) premium: lembut, jatuh, dan tidak menerawang. Tepi diobras rapi dan mudah dibentuk jadi berbagai gaya.</p></details>
+      <details><summary>Berapa ukuran pashmina?</summary><p>Sekitar 175 × 75 cm. Cukup lega untuk gaya simple maupun menutup dada.</p></details>
+      <details><summary>Cara mencuci pashmina kaos?</summary><p>Cuci tangan atau mesin mode lembut dengan air dingin, jangan diperas keras, lalu jemur di tempat teduh.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KONTAK ============ -->
+<section class="section contact" id="kontak">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <span class="eyebrow">Kontak</span>
+      <h2>Yuk ngobrol, <em>fast respon</em></h2>
+      <p>Tanya stok warna, konsultasi desain scrunchie, atau pesan dalam jumlah banyak. Jam layanan Senin–Sabtu 08.00–20.00 WIB.</p>
+      <ul class="contact-list">
+        <li><span>📱</span><div><b>WhatsApp</b><a href="https://wa.me/6282136822110" target="_blank" rel="noopener">+62 821-3682-2110</a></div></li>
+        <li><span>✉️</span><div><b>Email</b><a href="mailto:hello.jeanneofficial@gmail.com">hello.jeanneofficial@gmail.com</a></div></li>
+        <li><span>📍</span><div><b>Alamat</b>Jl. Magnolia No. 17, Kawasan Creative Hub, Kec. Bunga Mekar, Kota Bermekaran, Mewangi Indah 40123, Indonesia</div></li>
+      </ul>
+      <div class="socials">
+        <a href="https://instagram.com/jeanne.hijab" target="_blank" rel="noopener" aria-label="Instagram @jeanne.hijab">Instagram</a>
+        <a href="https://tiktok.com/@jeanne.hijab" target="_blank" rel="noopener" aria-label="TikTok @jeanne.hijab">TikTok</a>
+        <a href="https://shopee.co.id/search?keyword=Jeanne%20Official%20Shop" target="_blank" rel="noopener" aria-label="Shopee Jeanne Official Shop">Shopee</a>
+        <a href="https://www.tokopedia.com/search?q=Jeanne%20Hijab%20Official" target="_blank" rel="noopener" aria-label="Tokopedia dan TikTok Shop Jeanne Hijab Official">Tokopedia / TikTok Shop</a>
+      </div>
+    </div>
+    <form class="form reveal" id="contactForm" novalidate>
+      <h3>Kirim pesan</h3>
+      <label>Nama<input type="text" id="cName" placeholder="Nama kamu" required></label>
+      <label>Pesan<textarea id="cMsg" rows="4" placeholder="Tulis pertanyaan atau permintaan custom..." required></textarea></label>
+      <p class="form-err" id="formErr" role="alert"></p>
+      <button class="btn btn-primary" type="submit">Kirim via WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container foot-grid">
+    <div>
+      <div class="brand light"><svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="31" fill="#d9a5a5"/><text x="32" y="45" font-size="36" font-family="Cormorant Garamond,Georgia,serif" font-style="italic" font-weight="600" text-anchor="middle" fill="#fff">J</text></svg><span>Jeanne</span></div>
+      <p>Pashmina kaos premium dengan scrunchie gratis yang bisa kamu desain sendiri.</p>
+    </div>
+    <div><h4>Jelajah</h4><a href="#produk">Pashmina</a><a href="#studio">Studio Scrunchie</a><a href="#tentang">Tentang Kami</a><a href="#kontak">Kontak</a></div>
+    <div><h4>Bantuan</h4><a href="#kebijakan">Pengiriman</a><a href="#kebijakan">Retur & Refund</a><a href="#kebijakan">Privasi</a><a href="#kebijakan">Cara Pembayaran</a></div>
+  </div>
+  <div class="container copy">© <span id="year">2026</span> Jeanne Hijab. Seluruh hak cipta dilindungi.</div>
+</footer>
+
+<!-- ============ CART DRAWER ============ -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Keranjang belanja" aria-hidden="true">
+  <div class="drawer-head"><h3>Keranjang</h3><button id="closeCart" aria-label="Tutup keranjang">✕</button></div>
+  <div class="drawer-body" id="cartItems"></div>
+  <div class="drawer-foot">
+    <div class="line"><span>Scrunchie custom</span><b class="free">GRATIS</b></div>
+    <div class="total"><span>Total</span><strong id="cartTotal">Rp0</strong></div>
+    <p class="muted small">Ongkir dihitung admin saat konfirmasi.</p>
+    <button class="btn btn-primary full" id="checkout">Pesan via WhatsApp</button>
+    <button class="btn btn-ghost full" id="clearCart">Kosongkan</button>
+  </div>
+</aside>
+
+<button class="to-top" id="toTop" aria-label="Kembali ke atas">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
